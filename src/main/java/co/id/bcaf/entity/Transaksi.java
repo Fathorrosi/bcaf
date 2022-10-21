@@ -17,7 +17,6 @@ public class Transaksi {
     private Long id;
 
     @CreationTimestamp
-    @Column(columnDefinition = "TIMESTAMP WITH TIME ZONE")
     private Date createdDate;
 
     @Enumerated(EnumType.STRING)

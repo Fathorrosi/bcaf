@@ -32,7 +32,7 @@ public class TransaksiController {
         return GlobalResponseEntity.ok(result);
     }
 
-    @PostMapping
+    @PostMapping("/update")
     public ResponseEntity<GlobalResponseEntity> updateTransaksi(
             @RequestBody RequestUpdateTransaksiDto requestUpdateTransaksiDto
     ) {
